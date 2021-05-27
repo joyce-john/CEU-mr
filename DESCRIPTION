@@ -1,7 +1,7 @@
 Package: mr
 Type: Package
 Title: MasteR - Pass the Mastering R Course
-Version: 0.1.1
+Version: 0.1.2
 Author: John Joyce <joyce_john@student.ceu.edu>
 Maintainer: John Joyce <joyce_john@student.ceu.edu>
 Description: Demo R package for the Mastering R class. 
@@ -11,3 +11,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports: checkmate, scales, logger, data.table, binancer, httr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
