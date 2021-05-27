@@ -2,6 +2,7 @@ Package: mr
 Type: Package
 Title: MasteR - Pass the Mastering R Course
 Version: 0.1.2
+URL: https://github.com/joyce-john/CEU-mr/
 Author: John Joyce <joyce_john@student.ceu.edu>
 Maintainer: John Joyce <joyce_john@student.ceu.edu>
 Description: Demo R package for the Mastering R class. 
