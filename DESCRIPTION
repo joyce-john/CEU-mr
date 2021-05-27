@@ -1,13 +1,13 @@
 Package: mr
 Type: Package
 Title: MasteR - Pass the Mastering R Course
-Version: 0.1.0
+Version: 0.1.1
 Author: John Joyce <joyce_john@student.ceu.edu>
 Maintainer: John Joyce <joyce_john@student.ceu.edu>
 Description: Demo R package for the Mastering R class. 
-    Enables the student John to receive a passing grade. You can use this package for grading, reviewing, and evaluating John's work.
+    Enables the student John to receive a passing grade. You can use this package for grading, reviewing, and evaluating John's work. You can also use this package to format values in Hungarian Forints and retrieve current and historical exchange rates for many currency pairs.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Imports: checkmate, scales, logger, data.table, binancer
+Imports: checkmate, scales, logger, data.table, binancer, httr
