@@ -12,7 +12,7 @@
 #' @importFrom httr GET content
 #' @examples
 #' get_exchange_rates()
-#' get_usdhufs("USD", "EUR", start_date = "2021-04-18", end_date = "2021-05-18")
+#' get_exchange_rates("USD", "EUR", start_date = "2021-04-18", end_date = "2021-05-18")
 get_exchange_rates <- function(base_currency = "USD", target_currency = "HUF", start_date = Sys.Date() - 30, end_date = Sys.Date(), retried = 0) {
   tryCatch({
     response <- GET(

@@ -31,5 +31,5 @@ Look up the historical exchange rate between a base and target currency. Default
 }
 \examples{
 get_exchange_rates()
-get_usdhufs("USD", "EUR", start_date = "2021-04-18", end_date = "2021-05-18")
+get_exchange_rates("USD", "EUR", start_date = "2021-04-18", end_date = "2021-05-18")
 }
